@@ -1,0 +1,13 @@
+#1 In on-prem AD, what happens after successful logon?
+-After a successfully logging in the user account will receive
+a TGT token after GPO data is fetched. The data in TGT token
+determines the user's access level.
+
+#2 In Entra ID, what replaces
+- Domain Controller is replaced by Entra ID
+- Kerberos Ticket
+- 
+- GPO enforcement is replaced by Condtional Access
+- Network-Based trust - Again Conditional Access
+
+#3 What problem doesn conditional access solve that GPO + Firewall solved on-prem?
